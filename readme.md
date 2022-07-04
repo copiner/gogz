@@ -29,3 +29,8 @@ func main(){
 	fmt.Println(helper.Md5(str))
 }
 ```
+```
+git tag v0.1.2
+
+git push origin v0.1.2
+```
