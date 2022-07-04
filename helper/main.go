@@ -1,12 +1,17 @@
 package helper
 
-import "fmt"
+import (
+	"crypto/md5"
+	"fmt"
+)
 
 //hello
-func hello(){
-	fmt.Println("hello gz")
+func Help(){
+	fmt.Println("helper others")
 }
 
-func bye(){
-	fmt.Println("bye hz")
+func Md5(str string) string{
+	h := md5.New()
+	h.Write([]byte(str))
+	return hex.EncodeToString(h.Sum(nil))
 }
