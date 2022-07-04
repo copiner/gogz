@@ -2,6 +2,7 @@ package helper
 
 import (
 	"crypto/md5"
+	"encoding/hex"
 	"fmt"
 )
 
