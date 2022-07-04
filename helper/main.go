@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-//hello
+
 func Help(){
 	fmt.Println("helper others")
 }
